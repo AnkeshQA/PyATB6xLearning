@@ -3,6 +3,9 @@
 age = +65
 age1 = -65
 
+#postive value will be ignored here o/p is 65
+# it will print -65 as it is
+
 print(age)
 print(age1)
 

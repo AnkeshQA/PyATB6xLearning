@@ -18,3 +18,7 @@ age = 90
 <= 
 
 """
+print(2+2)
+print(2-2)
+print(2/2) #dvision will always give float
+print(2*2)
