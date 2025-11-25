@@ -10,19 +10,14 @@ test passed
 """
 attempt = 1
 response = 0
-
-while attempt <= 3:
-    # Simulate API response manually
-    # You can change this value to test (e.g., 500, 404, 200)
-    response = int(input(f"Enter response code for Attempt {attempt}: "))
-
-    print(f"Attempt {attempt}: Response {response}")
-
+max_attempts = 3
+while attempt <= max_attempts:
+    response = int(input(f"attempt {attempt}: enter your response code\n").strip())
     if response == 200:
-        print("API call successful ✅")
+        print("test passed")
         break
-
+    else:
+        print(f"attempt {attempt}: response code {response}")
     attempt += 1
-
-if response != 200:
-    print("API failed after 3 attempts ❌")
+if attempt > max_attempts and response != 200:
+    print("test failed after 3 attempts")
