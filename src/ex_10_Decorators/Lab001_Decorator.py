@@ -1,4 +1,4 @@
-"Decorators in Python are a powerful and flexible tool that allows you to modify the behavior of functions or methods without changing their actual code"
+"Decorators in Python are a way to modify the behavior of a function or class without changing its source code"
 "They are essentially functions that take another function as an argument and extend or alter its behavior."
 
 #primary use case :
@@ -15,17 +15,24 @@
 def add_security(func):
     def wrapper():
         print("1. before the function is called")
-        print("2. Add helmate , dashcam, gloves , knee pads")
+        print("2. Add helmet , dashcam, gloves , knee pads")
         func()
         print("3. after the function is called")
         print("4. Drive secure, leave all the items")
-    return wrapper()
+    return wrapper
 
 
 @add_security
 def drive_ola_scooter():
     print("Driving Ola Scooter")
 
+@add_security
+def drive_uber_scooter():
+    print("Driving Uber Scooter")
+
+drive_ola_scooter()
+print("------------")
+drive_uber_scooter()
 
 #explnation:
 #1. def add_security(func):
@@ -43,7 +50,7 @@ def drive_ola_scooter():
 #         print("1. before the function is called")
 # This runs before your main function
 # ✅ Line 4
-#         print("2. Add helmate , dashcam, gloves , knee pads")
+#         print("2. Add helmet , dashcam, gloves , knee pads")
 # This also runs before riding
 # ✅ Line 5
 #         func()
@@ -52,7 +59,7 @@ def drive_ola_scooter():
 # Without this → your original function will NEVER run
 # ✅ Line 6
 #         print("3. after the function is called")
-# This runs after your main function finshes
+# This runs after your main function finishes
 # ✅ Line 7
 #         print("4. Drive secure, leave all the items")
 # This also runs after riding / final message after everything is done
