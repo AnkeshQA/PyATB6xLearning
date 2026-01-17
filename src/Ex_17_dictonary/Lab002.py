@@ -5,6 +5,8 @@ my_dict = {
     "role": "Developer"
 }
 print("Original Dictionary:", my_dict)
+
+# access values using keys
 print(my_dict["name"])
 print(my_dict["age"])
 print(my_dict["city"])
@@ -18,7 +20,7 @@ print("Updated age:", my_dict["age"])
 del my_dict["role"]
 print("Dictionary after deleting role:", my_dict)
 
-# how to iterate through a dictionary
+# how to iterate through a dictionary using for loop
 for key,value in my_dict.items():
     print(key, value)
 
