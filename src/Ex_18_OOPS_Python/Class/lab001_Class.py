@@ -25,7 +25,7 @@ class Person:
 
 # we can use Zero (0) as well here. Python is dynamic program language
     # behavior / methods
-    def speak(self): # self -- this will be the first parameter of every method in class
+    def talk(self): # self -- this will be the first parameter of every method in class
     # this is no return type and no arguments method
         print("I can talk")
 
