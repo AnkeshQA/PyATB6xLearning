@@ -23,6 +23,9 @@ class Person:
     age = None
     gender = 0
 
+
+    #method is a function inside the class
+
 # we can use Zero (0) as well here. Python is dynamic program language
     # behavior / methods
     def talk(self): # self -- this will be the first parameter of every method in class
@@ -39,9 +42,29 @@ class Person:
         print("I am a method")
         return None
 
-# non argument type and non return type method
+# non argument type and nonreturn type method
     def walk(self):
         print("i am walking")
 
 
+
+
+# outside the class method is called as function
+
+def outside():
+    print(" this is function")
+
+
+# create object of the class
+# syntax : objectRef = ClassName() --> Object
+
+geeta = Person()
+
+# by using the reference we can access the attributes
+print(geeta.name)
+print(geeta.id)
+print(geeta.email)
+
+# also by using the reference we can access the behavior
+geeta.talk()
 
