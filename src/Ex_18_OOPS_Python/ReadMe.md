@@ -4,7 +4,7 @@ Object Oriented Programming (OOP) is a programming paradigm that uses classes an
 
 Class is user defined data type which defined data type which means every class act as a bluprint, which will basically contain attributes and behaviour
 
-Attributes is some which you usually have and behvaiour is something how u behave or what you do afterwards
+Attributes is some which you usually have and behaviour is something how u behave or what you do afterwards
 
 
 Person (class)
