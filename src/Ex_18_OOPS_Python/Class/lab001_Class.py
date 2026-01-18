@@ -1,10 +1,16 @@
 # A class is a group of objects which have common properties. A class can have some and functions(called methods)
 #the class we have used is main
-# its a blueprint to create objects
+# it's a blueprint to create objects
+# objects created from the class that is exactly real containing attributes and behavior
+
+
+# class is a user defined data type which defined it is a properties and it's method
+# object is a runtime entity . It's of an instance of a class
+# all data members and member function of the class can be accessed with help of the objects
 
 
 class Person:
-    # attributes
+    # attributes /properties / data variables
     name = None
     id = None
     email = None
