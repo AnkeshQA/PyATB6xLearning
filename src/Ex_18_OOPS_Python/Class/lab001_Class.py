@@ -9,6 +9,10 @@
 # all data members and member function of the class can be accessed with help of the objects
 
 
+class Persons:
+    pass # this is a empty
+
+
 class Person:
     # attributes /properties / data variables
     name = None
@@ -17,7 +21,6 @@ class Person:
     address = None
     phone = None
     age = None
-    email = None
     gender = 0
 
 # we can use Zero (0) as well here. Python is dynamic program language
