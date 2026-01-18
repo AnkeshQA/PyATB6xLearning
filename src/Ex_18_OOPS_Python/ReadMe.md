@@ -30,6 +30,10 @@ size : large
 age : 5 years
 color : black 
 
+here breed , size , color,age is attribute
+
+
+
 Dog 2
 breed : buldog
 size : medium
@@ -55,3 +59,4 @@ Object is runtime entity because it comes at runtime whenever we start creating 
 - **Object** is an instance of a class. 
 - All data members and member functions of the class can be accessed with the help of objects.
 
+behaviour will be Eat(),Sleep(),sit(),run()

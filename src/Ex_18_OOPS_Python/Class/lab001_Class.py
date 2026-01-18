@@ -1,4 +1,6 @@
-
+# A class is a group of objects which have common properties. A class can have some and functions(called methods)
+#the class we have used is main
+# its a blueprint to create objects
 
 
 class Person:
@@ -13,7 +15,7 @@ class Person:
     gender = 0
 
 # we can use Zero (0) as well here. Python is dynamic program language
-    # bhevaior / methods
+    # behavior / methods
     def speak(self): # self -- this will be the first parameter of every method in class
     # this is no return type and no arguments method
         print("I can talk")
