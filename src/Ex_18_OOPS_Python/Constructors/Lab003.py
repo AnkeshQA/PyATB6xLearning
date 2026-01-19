@@ -25,3 +25,9 @@ rancho_ref = Dog()
 
 print(chow_ref.name)
 print(rancho_ref.breed)
+
+#calling of method in another way
+
+Dog().bark()
+Dog().sleep()
+Dog().talk()
