@@ -11,7 +11,7 @@ def test_method1():
 # every function we create is a test case
 
 pytest.mark.smoke
-def test_method2():
+def test_login():
     print("hello world")
     assert 1+1 ==2
 
