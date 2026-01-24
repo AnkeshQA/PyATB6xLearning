@@ -79,3 +79,7 @@ obj.run_test()
 
 # Calling teardown() method from BaseTest
 obj.teardown()
+# Output
+# Launching browser: Chrome
+# Running login test with user: admin
+# Closing browser
