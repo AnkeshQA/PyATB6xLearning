@@ -3,7 +3,7 @@
 
 # methods --> by default are function within the class
 
-# wrap our variable / instance variable with the methods --> Encapsulation
+# wrap our variable / instance variable with the methods --> 04_Encapsulation
 
 # public variable --> any one can access cannot access directly
 # protected variable --> members are intended for internal use within the class and its subclasses

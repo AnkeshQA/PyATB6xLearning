@@ -21,7 +21,9 @@ class VWOLoginPage:
 email = input(" enter the vwo email")
 password = input(" enter the vwo password")
 
-vwo_object_ref = VWOLoginPage(email,password)
-vwo_object_ref.login_confirm()
+vwo_object_ref = VWOLoginPage(email,password) # This is calling the class constructor to create an object.
+vwo_object_ref.login_confirm() # This is calling a method using the object.
 
 # using os.getenv will fetch us the username and password from dotenv file
+
+print(os.name)
