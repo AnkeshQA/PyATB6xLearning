@@ -1,6 +1,6 @@
 # A class inherits from another class, and that class itself inherits from another class.
 # Grandfather passes knowledge to Father
-# Father passes knowledge to Son
+#  father passes knowledge to Son
 
 class Grandparent:
     def house(self):
@@ -18,3 +18,5 @@ c = Child()
 c.house()
 c.car()
 c.bike()
+
+

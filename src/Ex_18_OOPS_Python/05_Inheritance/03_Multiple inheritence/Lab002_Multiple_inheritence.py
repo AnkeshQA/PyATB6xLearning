@@ -43,7 +43,7 @@ t.run_test()
 
 class APIBase:
     def api_auth(self):
-        print("Authenticatin API")
+        print("Authenticating API")
 
 
 class DBBase:
@@ -53,10 +53,16 @@ class DBBase:
 
 class TestHybrid(APIBase, DBBase):
     def run(self):
-        self.api_auth()
+        self.api_auth() 
         self.db_connect()
         print("Test Case Running.")
 
 
 tc1 = TestHybrid()
 tc1.run()
+
+tc1 = DBBase()
+tc1.db_connect()
+
+tc1 = APIBase()
+tc1.api_auth()
