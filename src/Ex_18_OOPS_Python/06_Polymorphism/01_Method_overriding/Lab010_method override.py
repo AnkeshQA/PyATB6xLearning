@@ -1,6 +1,7 @@
 # Polymorphism means one function name, Multiple forms/behaviors
 # Types :
 # Method Overriding : a child class redefines methods from Parent class
+# method overloading in python is not possible directly
 
 
 class Basetest:
@@ -23,5 +24,5 @@ t.run() # running Login test
 t = Basetest()
 t.run()
 
-# here we have created object of base class then method running will be of Basetest class only 
+# here we have created object of base class then method running will be of Basetest class only
 
