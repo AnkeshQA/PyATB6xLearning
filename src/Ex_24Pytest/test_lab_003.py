@@ -13,6 +13,6 @@ def test_method1():
 pytest.mark.smoke
 def test_login():
     print("hello world")
-    assert 1+1 ==2
+    assert 1+1 == 2
 
 
